@@ -1,0 +1,158 @@
+/* CSS start */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* container CSS start */
+.container{
+    height: 850px;
+    width: 100%;
+    background-color: aquamarine;
+    
+}
+.txtcontact{
+    font-size: 30px;
+    margin-left: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.line{
+    box-sizing: border-box;
+    width: 90%;
+    margin: 50px auto;
+}
+
+/* header start */
+
+header{
+    box-sizing: border-box;
+    height: 100px;
+    width: 90%;
+    background-color: white;
+    margin: 50px auto;
+    display: flex;
+}
+.header1{
+    box-sizing: border-box;
+    height: inherit;
+    width: 30%;
+    background-color: white ;
+    padding: 15px;
+}
+.address{
+    margin-top: 8px;
+}
+.header2{
+    box-sizing: border-box;
+    height: inherit;
+    width: 40%;
+    background-color: white;
+    padding-top: 25px;
+}
+.contact i{
+    font-size: 20px;
+}
+.contact{
+    color: red;
+}
+.gmail i{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.gmail{
+    color: rgb(3, 119, 134);
+}
+.header3{
+    box-sizing: border-box;
+    height: inherit;
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    padding-top: 25px;
+}
+
+/* header End  */
+
+/* main start */
+
+.main{
+    box-sizing: border-box;
+    height: 550px;
+    width: 90%;
+    background-color: white;
+    margin: 20px auto;
+    display: flex;
+}
+
+/* main1 start */
+
+.main1{
+    box-sizing: border-box;
+    height: inherit;
+    width: 50%;
+    /* background-color: black; */
+}
+/* form start */
+
+table{
+    box-sizing: border-box;
+    padding: 15px 15px;
+}
+
+.textarea{
+    width: 380px;
+    padding: 7px;
+    border-radius: 5px;
+    border-color: darkgrey;
+    width: 500px;
+    height: 200px;
+}
+.form{
+    padding: 7px;
+    border-radius: 5px;
+    border-color: darkgrey;
+    width: 230px;
+    border: 2px solid gray;
+}
+.submit{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    border-color: red;
+    cursor: pointer;
+}
+/* form End */
+
+/* main1 End */
+
+/* main2 start */
+
+.main2{
+    box-sizing: border-box;
+    height: inherit;
+    width: 50%;
+    /* background-color: blueviolet; */
+}
+.main2 iframe{
+    margin: 15px auto;
+}
+.icon{
+    height: 60px;
+    width: 250px;
+    background-color: white;
+}
+i{
+    font-size: 40px;
+    padding-left: 5px;
+}
+
+/* main2 :End */
+
+/* main End  */
+
+/* container CSS End */
+
+/* CSS End */
