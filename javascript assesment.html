@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- CSS STYLE START -->
+
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+        
+        .container{
+            box-sizing: border-box;
+            height: 400px;
+            width: 600px;
+            background-color: midnightblue;
+            padding-left: 35px;
+        }
+        #taskInput{
+            height: 50px;
+            width: 400px;
+            margin: 38px 4px;
+            text-align: center;
+            font-size: 25px;
+        }
+        button{
+            height: 57px;
+            width: 100px;
+            background-color: coral;
+            font-size: 25px;
+        }
+        .one{
+            height: 203px;
+            width: 515px;
+            background-color: white;
+        }
+        li{
+            height: 50px;
+            width: 515px;
+            background-color: white;
+            list-style: none;
+            font-size: 31px;
+            color: grays;
+            padding-left: 20px;
+   
+            border: 1px solid darkgray;
+            
+        }
+    </style>
+
+     <!-- CSS STYLE END -->
+</head>
+<body>
+    <!-- HTML START -->
+
+    <div class="container">
+
+        <input type="text" id="taskInput" placeholder="add new">
+        <button onclick="addTask()">Add</button>
+
+        <div class="one">
+            <ul id="taskList"></ul>
+        </div>
+    </div>
+
+     <!-- HTML END -->
+
+    <!-- JAVASCRIPT START -->
+
+    <script>
+        function addTask() {
+    var taskInput = document.getElementById("taskInput");
+    var taskList = document.getElementById("taskList");
+
+    // Create a new list item
+    var listItem = document.createElement("li");
+    listItem.innerText = taskInput.value;
+
+    // Add the list item to the task list
+    taskList.appendChild(listItem);
+
+    // Clear the input field
+    taskInput.value = "";
+}
+
+    </script>
+     <!-- JAVASCRIPT END -->
+</body>
+</html>
